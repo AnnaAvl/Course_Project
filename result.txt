@@ -1,0 +1,22 @@
+y(x) = sin(x**2)*cos(x)
+Xmin = -10
+Xmax = 10
+Method = Дихотомии
+delta = 0.001
+e = 0.01
+
+1) xmin = -0.001, xmax = 10.0; minFunk = 0.0, maxFunk = 0.425
+2) xmin = -0.001, xmax = 5.001; minFunk = 0.0, maxFunk = -0.036
+3) xmin = 2.499, xmax = 5.001; minFunk = 0.032, maxFunk = -0.036
+4) xmin = 2.499, xmax = 3.751; minFunk = 0.032, maxFunk = -0.818
+5) xmin = 2.499, xmax = 3.126; minFunk = 0.032, maxFunk = 0.338
+6) xmin = 2.811, xmax = 3.126; minFunk = -0.945, maxFunk = 0.338
+7) xmin = 2.811, xmax = 2.969; minFunk = -0.945, maxFunk = -0.562
+8) xmin = 2.811, xmax = 2.891; minFunk = -0.945, maxFunk = -0.848
+9) xmin = 2.811, xmax = 2.852; minFunk = -0.945, maxFunk = -0.921
+10) xmin = 2.811, xmax = 2.833; minFunk = -0.945, maxFunk = -0.939
+11) xmin = 2.811, xmax = 2.823; minFunk = -0.945, maxFunk = -0.943
+12) xmin = 2.811, xmax = 2.818; minFunk = -0.945, maxFunk = -0.944
+
+Минимум функции равен -0.945 и достигается в точке 2.811
+Количество шагов: 12
